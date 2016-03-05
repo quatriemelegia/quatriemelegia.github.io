@@ -1,0 +1,89 @@
+<div ng-if="!question">
+  <br>
+  <br>
+  <br>
+  <center>
+    <a href="" ng-click="next()">
+      <br>
+      <h2>Una Famiglia d'<span class="gold">Oro</span></h2>
+      <img src="css/star.png">
+      <br>
+      <div style="font-size:2em; color:darkblue;">
+        Presto in direto sulla RAI Quatro
+      </div>
+    </a>
+ </center>
+</div>
+
+<h1 ng-if="question"><img src="css/star.png" height="32"> Una Famiglia d'Oro <img src="css/star.png" height="32"></h1>
+
+<div ng-if="question" class="question">
+  {{question.question}}<a href="" class="btn btn-xs glyphicon glyphicon-chevron-right pull-right" ng-click="next()"></a>
+</div>
+
+<br>
+
+<div ng-if="question" class="row">
+  <div class="col-md-3">
+    <div class="team">
+      Corleone
+    </div>
+    <br/>
+    <div>
+        <div class="score">
+          {{localStorage.leftScore}}
+        </div>
+    </div>
+      <div style="text-align:center">
+        <button class="btn btn-xs glyphicon glyphicon-backward" ng-click="removeLeft(5)"></button>
+        <button class="btn btn-xs glyphicon glyphicon-triangle-left" ng-click="removeLeft(1)"></button>
+        <button class="btn btn-xs glyphicon glyphicon-triangle-right" ng-click="addLeft(1)"></button>
+        <button class="btn btn-xs glyphicon glyphicon-forward" ng-click="addLeft(5)"></button>
+      </div>
+    <br>
+    <br>
+    <div style="text-align:center">
+        <a ng-click="leftCross1=!leftCross1" href="" class="cross" ng-style="{color:leftCross1?'red':'white',borderColor:leftCross1?'red':'white'}">X</a>
+        <a ng-click="leftCross2=!leftCross2" href="" class="cross" ng-style="{color:leftCross2?'red':'white',borderColor:leftCross2?'red':'white'}">X</a>
+        <a ng-click="leftCross3=!leftCross3" href="" class="cross" ng-style="{color:leftCross3?'red':'white',borderColor:leftCross3?'red':'white'}">X</a>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div ng-repeat="reponse in question.reponses" ng-style="{backgroundColor:visibles[$index]?'blue':'gold'}" style="border: solid 2px blue; border-radius:5px; min-height:2em; padding:0.25em;margin:2px;font-size:1.5em" ng-click="toggle($index)">
+      <div ng-show="visibles[$index]" class="row" style="color:gold">
+        <div class="col-xs-10">
+          {{reponse.label || reponse.texte}}
+        </div>
+        <div class="col-xs-2">
+          {{reponse.score}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="team">
+      Genovese Capone Luciano
+    </div>
+    <br/>
+    <div>
+        <div class="score">
+          {{localStorage.rightScore}}
+        </div>
+    </div>
+      <div style="text-align:center">
+        <button class="btn btn-xs glyphicon glyphicon-backward" ng-click="removeRight(5)"></button>
+        <button class="btn btn-xs glyphicon glyphicon-triangle-left" ng-click="removeRight(1)"></button>
+        <button class="btn btn-xs glyphicon glyphicon-triangle-right" ng-click="addRight(1)"></button>
+        <button class="btn btn-xs glyphicon glyphicon-forward" ng-click="addRight(5)"></button>
+      </div>
+    <br>
+    <br>
+    <div style="text-align:center">
+      <a ng-click="rightCross1=!rightCross1" href="" class="cross" ng-style="{color:rightCross1?'red':'white',borderColor:rightCross1?'red':'white'}">X</a>
+      <a ng-click="rightCross2=!rightCross2" href="" class="cross" ng-style="{color:rightCross2?'red':'white',borderColor:rightCross2?'red':'white'}">X</a>
+      <a ng-click="rightCross3=!rightCross3" href="" class="cross" ng-style="{color:rightCross3?'red':'white',borderColor:rightCross3?'red':'white'}">X</a>
+    </div>
+  </div>
+</div>

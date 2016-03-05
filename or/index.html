@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" ng-app="uniteEnOr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Une unité en or</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/app.css" rel="stylesheet">
+
+</head>
+
+<body class="full">
+
+<!-- Loading splash screen -->
+<div ng-show style="position: fixed; height: 100%; width: 100%; top: 0; left: 0; z-index: 10000;">
+    <div class="splash" style="display: table; margin: 0 auto; font-size: 26px; color: #CCC;position:relative;top:40%; text-align: center">
+        <h3>Une Unité en Or</h3>
+        <p>Loading ...</p>
+    </div>
+</div>
+
+<section ui-view class="container-fluid"></section>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+<script src="bower_components/angular-gridster/src/angular-gridster.js"></script>
+
+
+
+<script src="js/app.js"></script>
+<script src="js/main/main.js"></script>
+
+</body>
+
+</html>

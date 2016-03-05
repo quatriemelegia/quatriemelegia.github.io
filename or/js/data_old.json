@@ -1,0 +1,136 @@
+[
+  {
+    "question":"Pourquoi les animés vont-ils aux Scouts ?",
+    "reponses":[
+      {"label":"", "texte":"Pour s'amuser", "score":27},
+      {"label":"", "texte":"Pour les copains", "score":25},
+      {"label":"", "texte":"Pour apprendre", "score":20},
+      {"label":"", "texte":"Pour faire des jeux scouts", "score":15},
+      {"label":"", "texte":"Parce que les animateurs sont cools", "score":10},
+      {"label":"", "texte":"Pour sortir de chez soi", "score":3},
+      {"label":"", "texte":"Parce qu'ils sont obligés", "score":2}
+    ]
+  },
+  {
+    "question":"Quel est le plat préféré des Scouts ?",
+    "reponses":[
+      {"label":"", "texte":"Hachicoutchi", "score":30},
+      {"label":"", "texte":"Pates jambon-fromage", "score":25},
+      {"label":"", "texte":"Hamburger", "score":22},
+      {"label":"", "texte":"Pains perdus", "score":17},
+      {"label":"", "texte":"Durum Omer", "score":10},
+      {"label":"", "texte":"Frites Natacha", "score":4}
+    ]
+  },
+  {
+    "question":"Pourquoi les parents inscrivent-ils leurs enfants aux Scouts ?",
+      "reponses":[
+      {"label":"", "texte":"Pour être tranquille le samedi", "score":30},
+      {"label":"", "texte":"Pour apprendre la vie en société", "score":25},
+      {"label":"", "texte":"Pour qu'ils jouent dans la nature", "score":20},
+      {"label":"", "texte":"Parce qu'ils ont été aux Scouts", "score":18},
+      {"label":"", "texte":"Pour apprendre à se débrouiller", "score":12}
+    ]
+  },
+  {
+    "question":"Quelle est la meilleure chanson scoute ?",
+    "reponses":[
+      {"label":"", "texte":"Champs Elysees", "score":20},
+      {"label":"", "texte":"Ma belle gazelle", "score":18},
+      {"label":"", "texte":"Un pied mariton", "score":16},
+      {"label":"", "texte":"Le petit âne gris", "score":14},
+      {"label":"", "texte":"Stewball", "score":12}
+    ]
+  },
+  {
+    "question":"Pourquoi les chefs animent les Scouts ?",
+    "reponses":[
+      {"label":"", "texte":"Pour les copains", "score":30},
+      {"label":"", "texte":"Pour faire la fête", "score":20},
+      {"label":"", "texte":"Pour rendre ce que l'on a reçu", "score":18},
+      {"label":"", "texte":"Par continuité", "score":16},
+      {"label":"", "texte":"Parce que les animés sont marrants", "score":12},
+      {"label":"", "texte":"Pour trouver une gonzesse/un mec", "score":6},
+      {"label":"", "texte":"Pour rencontrer des situations insolites", "score":4}
+    ]
+  },
+  {
+     "question":"Quelle est la plus grosse connerie qu'un animateur puisse faire ?",
+     "reponses":[
+       {"label":"", "texte":"Tuer une enfant", "score":30},
+       {"label":"", "texte":"Perdre un enfant", "score":25},
+       {"label":"", "texte":"Brûler les locaux", "score":20},
+       {"label":"", "texte":"Vomir sur un enfant", "score":12}
+     ]
+   },
+ {
+    "question":"Pourquoi les chefs d'U s'occupent de l'unité ?",
+    "reponses":[
+      {"label":"Pour que l'unité continue", "texte":"", "score":32},
+      {"label":"Pour rendre ce que l'on a reçu", "texte":"", "score":28},
+      {"label":"Pour leurs enfants ", "texte":"", "score":20},
+      {"label":"Pour s'amuser", "texte":"", "score":12},
+      {"label":"Pour rester djeun", "texte":"", "score":10},
+      {"label":"Pour la gloire", "texte":"", "score":8},
+      {"label":"Parce que ma femme m'a obligé", "texte":"", "score":5}
+    ]
+  },
+  {
+    "question":"Quelles sont les activités scoutes typiques ?",
+    "reponses":[
+      {"label":"", "texte":"Un jeu à postes", "score":28},
+      {"label":"", "texte":"Petit poisson rouge", "score":22},
+      {"label":"", "texte":"Vendre des brols", "score":19},
+      {"label":"", "texte":"Temps libres", "score":18},
+      {"label":"", "texte":"Stratego", "score":11},
+      {"label":"", "texte":"Activité Cinéma", "score":10},
+      {"label":"", "texte":"Faire réunion avec les Mowhas ", "score":6}
+    ]
+  },
+  {
+    "question":"Pourquoi le CAP prête les locaux aux scouts ?",
+    "reponses":[
+      {"label":"", "texte":"Parce qu'ils partagent les valeurs du scoutisme", "score":30},
+      {"label":"", "texte":"Parce que c'est l'esprit de Don Bosco", "score":26},
+      {"label":"", "texte":"Parce qu'ils sont obligés", "score":22},
+      {"label":"", "texte":"Parce qu'ils ont trop de place", "score":18},
+      {"label":"", "texte":"Parce que les locaux sont adaptés", "score":14}
+    ]
+  },
+  {
+    "question":"Quelle est la fille la plus SWAG de la IVème ?",
+    "reponses":[
+      {"label":"", "texte":"Perrine", "score":20},
+      {"label":"", "texte":"Hélène", "score":10},
+      {"label":"", "texte":"Marine", "score":10},
+      {"label":"", "texte":"Charlotte", "score":5},
+      {"label":"", "texte":"Laura", "score":5},
+      {"label":"", "texte":"Manola", "score":5},
+      {"label":"", "texte":"Fanny", "score":5},
+      {"label":"", "texte":"Margaux", "score":5},
+      {"label":"", "texte":"Lison", "score":5}
+    ]
+  },
+  {
+    "question":"Pourquoi l'équipe LRG s'occupe des unités ?",
+    "reponses":[
+      {"label":"", "texte":"Pour soutenir les unités", "score":32},
+      {"label":"", "texte":"Pour appliquer la vision de la fédé", "score":26},
+      {"label":"", "texte":"Parce qu'ils n'ont plus envie d'être dans un staff d'U", "score":18},
+      {"label":"", "texte":"Parce qu'ils n'ont pas d'amis", "score":15},
+      {"label":"", "texte":"Pour se sentir important", "score":13},
+      {"label":"", "texte":"Pour la diversité", "score": 10}
+    ]
+  },
+  {
+    "question":"Quel est le meilleur staff ?",
+    "reponses":[
+      {"label":"", "texte":"Le staff d'U", "score":30},
+      {"label":"", "texte":"Le staff Pios", "score":10},
+      {"label":"", "texte":"Le staff Eclaireurs", "score":10},
+      {"label":"", "texte":"Le staff Mowhas", "score":10},
+      {"label":"", "texte":"Le staff Waingungas", "score":10},
+      {"label":"", "texte":"Le staff Baladins", "score":10}
+    ]
+  }
+]

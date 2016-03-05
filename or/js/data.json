@@ -1,0 +1,59 @@
+[
+  {
+    "question":"Pourquoi les animés vont-ils aux Scouts ?",
+    "reponses":[
+      {"label":"", "texte":"Pour s'amuser", "score":27},
+      {"label":"", "texte":"Pour les copains", "score":25},
+      {"label":"", "texte":"Pour apprendre", "score":20},
+      {"label":"", "texte":"Pour faire des jeux scouts", "score":15},
+      {"label":"", "texte":"Parce que les animateurs sont cools", "score":10},
+      {"label":"", "texte":"Pour sortir de chez soi", "score":3},
+      {"label":"", "texte":"Parce qu'ils sont obligés", "score":2}
+    ]
+  },
+  {
+    "question":"Pourquoi les parents inscrivent-ils leurs enfants aux Scouts ?",
+      "reponses":[
+      {"label":"", "texte":"Pour être tranquille le samedi", "score":30},
+      {"label":"", "texte":"Pour apprendre la vie en société", "score":25},
+      {"label":"", "texte":"Pour qu'ils jouent dans la nature", "score":20},
+      {"label":"", "texte":"Parce qu'ils ont été aux Scouts", "score":18},
+      {"label":"", "texte":"Pour apprendre à se débrouiller", "score":12}
+    ]
+  },
+  {
+    "question":"Quelle est la meilleure chanson scoute ?",
+    "reponses":[
+      {"label":"", "texte":"Santiano", "score":25},
+      {"label":"", "texte":"Champs Elysees", "score":20},
+      {"label":"", "texte":"Ma belle gazelle", "score":18},
+      {"label":"", "texte":"Un pied mariton", "score":16},
+      {"label":"", "texte":"Le petit âne gris", "score":14},
+      {"label":"", "texte":"Stewball", "score":12}
+    ]
+  },
+  {
+    "question":"Pourquoi les chefs animent les Scouts ?",
+    "reponses":[
+      {"label":"", "texte":"Pour les copains", "score":30},
+      {"label":"", "texte":"Parce que les animés sont cools", "score":25},
+      {"label":"", "texte":"Pour rendre ce que l'on a reçu", "score":18},
+      {"label":"", "texte":"Par continuité", "score":16},
+      {"label":"", "texte":"Pour faire la fête", "score":12},
+      {"label":"", "texte":"Pour trouver une gonzesse/un mec", "score":6},
+      {"label":"", "texte":"Pour rencontrer des situations insolites", "score":4}
+    ]
+  },
+ {
+    "question":"Pourquoi les chefs d'U s'occupent de l'unité ?",
+    "reponses":[
+      {"label":"Pour que l'unité continue", "texte":"", "score":32},
+      {"label":"Pour rendre ce que l'on a reçu", "texte":"", "score":28},
+      {"label":"Pour leurs enfants ", "texte":"", "score":20},
+      {"label":"Pour s'amuser", "texte":"", "score":12},
+      {"label":"Pour rester djeun", "texte":"", "score":10},
+      {"label":"Pour la gloire", "texte":"", "score":8},
+      {"label":"Parce que ma femme m'a obligé", "texte":"", "score":5}
+    ]
+  }
+]
